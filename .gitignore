@@ -12,3 +12,5 @@
 .DS_Store
 *.ipynb_checkpoints
 new_hw/
+*.key
+vk_bdates.csv
