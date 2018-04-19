@@ -6,16 +6,20 @@ layout: nil
 
 Тут лежат всякие глобальные полезные ссылки на разные материалы. Ещё больше ссылок ищите в тетрадках к семинарам!
 
-### Книги на русском для чтения:
+### Книги по терверу и матстату на русском:
 
 * [Учебник Черновой по терверу](https://github.com/FUlyankin/r_probability/raw/master/books/Хороший%20учебник%20по%20терверу.pdf)
 * [Учебник Черновой по матстату](https://github.com/FUlyankin/r_probability/raw/master/books/Хороший%20учебник%20по%20матстату.pdf)
-* [Учебник Демешева по R для начинающих](https://github.com/bdemeshev/r_manual_book)
 * [Книга про парадоксы в теорвере и матстате ](https://github.com/FUlyankin/r_probability/raw/master/books/Sekej%20G.%20_Paradoksy%20v%20teorii%20verojatnostej_.pdf)
 * [Статистика на котиках (лолшто) ](https://github.com/FUlyankin/r_probability/raw/master/books/Statistika_i_kotiki__Vladimir_Savelyev_2017.pdf)
 * [Культурный код.](https://github.com/bdemeshev/probability_dna) Сборник красивых нетривиальных задач по терверу и матстату. Слабо решить их все?
 
 > Ради всего святого, если будете читать про котиков и статистику, не останавливайтесь на этой книге в своём развитии.
+
+### Книги по R
+
+* [Учебник Демешева по R для начинающих](https://github.com/bdemeshev/r_manual_book)
+* Его же [страница по R с кучей учебников и ссылок](https://github.com/bdemeshev/em301/wiki/R)
 
 
 ### Другие крутые источники:
