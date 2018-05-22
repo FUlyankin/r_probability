@@ -1,0 +1,52 @@
+---
+title: |
+  | Гипотезы да АБ-тесты: начало
+date: |
+  | 2016-05-24
+author: |
+  | Филипп
+output: 
+  revealjs::revealjs_presentation:
+    css: left.css
+    theme: simple
+    highlight: pygments
+    center: false
+    smart: true
+    transition: slide
+    background_transition: slide
+    reveal_options:
+      fig_width: 5
+      fig_height: 4
+      slideNumber: true
+      previewLinks: true
+    self_contained: true
+    reveal_plugins: []
+---
+
+
+## Слайд первый детка
+
+* пункт 1
+* пункт 2
+* пункт 3
+
+
+Важное: впихнуть ошибку 1 и 2 рода 
+
+
+## Мысль 
+
+Но $\hat p$ это же случайная величина, имеющая нормальное распределение! Как можно судить о близости? 
+
+
+
+
+
+
+
+
+
+
+
+
+
