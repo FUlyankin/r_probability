@@ -6,4 +6,26 @@
 
 - Задача о разорении игрока в генерации!!!
 
-- Добавить в задачу на распределение пуассона и лайки пунт про zero inflated model 
+- Добавить в задачу на распределение пуассона и лайки пунт про zero inflated model
+
+
+
+http://ggplot2.tidyverse.org/reference/geom_qq.html
+
+https://www.coursera.org/learn/inferential-statistics-intro
+
+- добавить любимый мемас в 1 дз по латеху и любимую шутку
+
+- Добавить в курс по терверу гифки, переделать все презы в Rmarkdown!
+
+
+ДЗ:
+
+https://docs.google.com/forms/d/e/1FAIpQLSfuGVWCC__NjoMxaMrbioq2CfBLNj3t8QPSS4PWeWhB3RdA5A/viewform
+
+Эконом:
+
+1) Увеличить вариабильность спикеров. Секции: макро - микро - метрика - другое!
+2) Людей из финансов позвать!
+3) Перенести встречу на 9 неделю!
+4)
