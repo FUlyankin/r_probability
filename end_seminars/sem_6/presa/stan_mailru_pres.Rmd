@@ -177,7 +177,6 @@ model <- stan_demo()
 ```
 
 
-
 ## Когда жёлудь спелый, его всякая свинья слопает! {data-background="jelud.jpeg"}
 
 
