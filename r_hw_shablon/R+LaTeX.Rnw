@@ -33,147 +33,63 @@
 
 \maketitle
 
-\section{Основовы}
-
-
-<<include=FALSE,message=FALSE>>=
-
-# Чтобы вставить такую штуку:  Code/ Insert Chunk  либо   ctrl+alt+I
-
-# include (TRUE) Если изменить на FALSE - то в документе не будет показан вывод кода. 
-# message (TRUE) Если FALSE, то системные сообщения от функций в pdf не включаются.
-# echo    (TRUE) Если FALSE, то програмный код не будет включаться в pdf
-# eval    (TRUE) Если FALSE, то чанк с кодом игнорируется, вычисления не запускаются
-# warning (TRUE) Если FALSE, то предупреждения не включаются в pdf
-# message (TRUE) Если FALSE, то сообщения от R не включаются в pdf
-# results ('hold') Есть 4 разные опции. 'hide' - скрывает вывод куска кода, другие две опции переставляют его местами. Чтобы посмотреть все возможные варианты для команды - Tab!
-
-
-# загружаем библиотеки:
-library(knitr)                     # взаимодействие R-Latex
-library(quantmod)                  # загрузка котировок с yahoo.finance, google.finance
-library(ggplot2)                   # симпатявые графики
-library(dplyr)
-library(xtable)
-
-invisible(Sys.setlocale("LC_MESSAGES", "C"))  # установка локали потенциально решает проблему 
-invisible(Sys.setlocale("LC_TIME", "C"))      # с отсутствием дат в getSymbols с гугла :)
-
-
-# Опции для кода можно настраивать либо глобально (для всех окон с кодом сразу) либо локально отдельно для каждого окна. Глобальные опции задаются следующим способом: 
-
-# cache=TRUE ускоряет работу, но на сложных проектах может глючить
-opts_chunk$set(cache=TRUE)  # после первого запуска запоминает рассчеты в маленький файл, а потом обращается к ним! При каждой компиляции, кроме первой пересчитываются только изменённые чанки. Иногда при неумелом использовании это привоодит к проблемам.
-
-# НЕ ЗАБЫТЬ ПОКАЗАТЬ ПОЯВЛЕНИЕ ПАПКИ Cahe!!! АУДИТОРИЯ, ЕСЛИ ТЫ ЧИТАЕШЬ ЭТО, ТО НАПОМНИ МНЕ ОБ ЭТОМ!
-
-opts_chunk$set(echo=FALSE)        
-opts_chunk$set(warning=FALSE,message=FALSE,dev='png',dpi=1000,fig.align='center')
-# dpi - Разрешение. Самое дешёвое спасение русских букв в графиках =)
-# dev - Формат для сохранения картинок.
-
-
-# Knitr - развитие Sweave. Он был создан для более простой и удобной работы с картинками. Вместе с появлением этого пакета часть опций в Sweave изменилась и стала неактуальной. Появились новые опции.
+<<echo = FALSE, warning=FALSE, message=FALSE>>=
+library(ggplot2)    # симпатявые графики
 @
 
-\section{Первый чанк или четыре лапки равно собачка}
+\section{Задачка 1}
 
-Тут можно писать текст, и даже вот такие вот формулы
+В R куча встроенных наборов данных. Например, в наборе данных \textbf{chickwts} лежат веса куриц и тип корма, который используется для их выращивания.
 
-\[ \int_{0}^{+\infty} x^{s-1} \cdot e^{-x} dx = \Gamma(s). \]
-
-Всё совсем как в \LaTeX! Но у нас нет на это времени! Пора создавать чанк!
-
-
-<<echo=TRUE>>=
-x <- rnorm(100)
-x_mean <- mean(x)
-x_mean
+<< >>=
+head(chickwts,5)
 @
 
-Мы видим, что наши вычисления прошли усспешно и среднее составило \Sexpr{round(x_mean,2)}
+Постройте гистограмму с распределением веса куриц с 20 столбиками. 
 
+<<fig.height=3,fig.width=3>>=
+# легче лёгкого! 
+qplot(chickwts$weight, bins=20)
+@
 
+Постройте эмпирическую функцию распределения для веса куриц. 
 
-\section{Картинки, таблицы и другие штуки!}
-
-<<results='hide'>>=
-getSymbols(Symbols="GOOG",from="2016-01-01",to="2016-08-08")
-df <- data.frame(t=time(GOOG),coredata(GOOG))
-df <- df[,-c(6,7)]
-beautiful <- head(df) %>% kable()
+<<fig.height=3,fig.width=3>>=
+# скопипастим код из лекции
+ggplot(chickwts, aes(x = weight))+   # на какой таблице строи график 
+        stat_ecdf( )                 # какой именно график строим 
 @
 
 
-\begin{table}[h!]
+Можно сделать график чуть красивше! Розовым, пунктирным и большим! А ещё расположить его по центру.
+
 \begin{center}
-\Sexpr{beautiful}
-\caption{Стоимость акций}
-\end{center} 
-\end{table}
+<<fig.height=3,fig.width=3>>=
+ggplot(chickwts, aes(x = weight))+
+        stat_ecdf(linetype = 'dashed', color = "magenta", size = 5)
+@
+\end{center}
 
 
-Таблицы можно получать немного иначе. С помощью пакета xtable. Посмотрим как! Оценим модель с помощью следующего кода: 
+Найдите базовые характеристики распределения:
 
-<<echo=TRUE>>=
-formula = "GOOG.Open~t+GOOG.Close"
-model <- lm(data=df,formula)
+\begin{itemize}
+\item  средний вес курицы
+\item  медианный вес курицы
+\item  дисперсию веса куриц 
+\item  среднее квадратическо отклонения веса куриц 
+\item  эмпирические квантили уровня 5\%, 50\% и 95\%. 
+\item  правда ли, что 50\% квантиль совпал с медианой? А почему?
+\end{itemize}
+
+<< >>=
+# сохраним вес курицы в отдельный вектор, чтобы было проще
+x <- chickwts$weight
+mean(x) # среднее
 @
 
 
-Оценки, которые мы заслужили приведены в таблице \ref{tab:regress}. 
-
-<<echo=FALSE,results='asis'>>=
-library(xtable)
-floating = getOption("xtable.floating", TRUE)
-table.placement = getOption("xtable.table.placement", "H")
-latex.environments = getOption("xtable.latex.environments", c("center"))
-
-xtable(summary(model), caption = "Оценки, которые мы заслужили!",label="tab:regress",digits=2)
-@
-
-
-<<echo=FALSE,results='asis'>>=
-floating = getOption("xtable.floating", TRUE)
-table.placement = getOption("xtable.table.placement", "H")
-latex.environments = getOption("xtable.latex.environments", c("center"))
-
-xtable(summary(model), caption = "Оценки, которые мы заслужили!",label="tab:regress2",digits=2)
-@
-
-Графики можно построить совсем разными. Например, вот такой! 
-
-
-<<fig.height=2>>=
-ggplot(df) +
-  geom_line(aes(x = t, y = GOOG.High), colour = 'blue') +
-  geom_line(aes(x = t, y = GOOG.Low), colour = 'red')  +
-  ggtitle("Изменение стоимости акций google") + 
-  ylab("Изменение цены") + xlab("Время")
-@
-
-Можно к коду использовать любые окружения теха! Прямо как к рисунку \ref{fig}.
-
-\begin{figure}[H]
-<<fig.height=1.8,fig.width=2.5>>=
-qplot(data=df,GOOG.Close)
-@
-\caption{Гистограмка для стоимости акций гугл! \label{fig}}
-\end{figure}
-
-
-Средняя цена заыкрытия акции гугла рана $\Sexpr{mean(df$GOOG.Close)}$
-
-Команда \$ \$ делает в техе формулу. Команда Sexpr обращается к R. Все, что написано в скобках к Sexpr будет посчитано в R и вставленно в \TeX. 
-
-
-\section{Имена чанков}
-
-Чанкам можно давать имена! Напримеп, ниже чанк по имени Антон. Зачем их давать? Это забавно. Да и ктому же чанки удобно искать по именам...
-
-<<Anton>>=
-x <- 10
-@
+Сделали упражнение? Ответили на вопросы? Вы офигенны! Вы уже можете больше, чем среднестатистический аудитор из большой четвёрки ;) Двигайтесь дальше в таком же темпе. 
 
 
 \end{document}
