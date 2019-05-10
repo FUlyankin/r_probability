@@ -13,6 +13,7 @@ layout: nil
 * [Книга про парадоксы в теорвере и матстате ](https://github.com/FUlyankin/r_probability/raw/master/books/Sekej%20G.%20_Paradoksy%20v%20teorii%20verojatnostej_.pdf)
 * [Культурный код.](https://github.com/bdemeshev/probability_dna) Сборник красивых нетривиальных задач по терверу и матстату. Слабо решить их все?
 * [Занимательная статистика Лагутина,](https://yadi.sk/i/UuWhEn_L4X_Rwg) как и Чёрнова выводит в понимании на более высокий уровень
+* Целые [10 глав](http://personal.psu.edu/drh20/asymp/fall2006/lectures/) разных сходимостей и задачек по ним (не уверен, что сейчас вы это осилите, но выглядит годно)
 
 ### Книги по R
 
