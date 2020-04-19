@@ -4,7 +4,6 @@ __С пары:__
 
 - [Презентация](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/sem01/presa01_intro.ipynb) 
 - [Блокнот с пары](https://github.com/FUlyankin/r_probability/blob/master/end_seminars_2020/sem01/dirty_sem01.ipynb)
-
 - [Как симулировать в R случайности](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/sem01/1.1%20Distributions.ipynb) 
 - [Про выборы и фальсификации](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/sem01/1.2%20Elections.ipynb) 
 
