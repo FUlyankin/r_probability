@@ -4,20 +4,10 @@ __С пары:__
 
 - [Видосик с пары.](https://www.youtube.com/watch?v=2cAJBfE1j3I&t=7309s)
 - [Тетрадка: как компухтер генерирует случайности](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/sem02/simulation_distributions.ipynb)
-- [Тетрадка: начали решать киллера](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/sem02/simulation_tasks.ipynb)
+- [Тетрадка: начали решать киллера,](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/sem02/simulation_tasks.ipynb) мы не будем его дорешивать, можете отыскать решение прошлого года [в разборе домашки.](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2019/HW/HW1_solution.ipynb) Если знаете питон, можно посмотреть как мы [реализовали киллера в виде класса с 3 курсом](https://www.youtube.com/watch?v=f1Qvxha7aFY&t=5761s)
 
-
-
-- [Тетрадка, которую набирали на паре](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/sem03/dirty_sem.ipynb)
-- [Презенташка "Схема матстата"](https://github.com/FUlyankin/r_probability/blob/master/end_seminars_2020/sem03/matstatSh.pdf)
-- [Презенташка "Что хочет статистик?"](https://github.com/FUlyankin/r_probability/blob/master/end_seminars_2020/sem03/estimates.pdf)
-- [Кексы про выборки и их свойства](https://github.com/FUlyankin/r_probability/blob/master/end_seminars_2020/sem03/estimates_kekes.ipynb)
-- [Тетрадка про сходимости,](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/sem03/estimates_convergence.ipynb) которой мы займёмся в следующий раз :) 
 
 __Хочу больше материалов:__
 
-- Инфантильные задачи с нашего [другого курса](https://github.com/FUlyankin/Intro_to_DS) [на описательные статистики](https://github.com/FUlyankin/r_probability/blob/master/end_seminars_2020/sem03/sem03_stat_solution.pdf) и [про дядю Фёдора и Гипотезово](https://github.com/FUlyankin/r_probability/blob/master/end_seminars_2020/sem03/sem11_AB_solution.pdf)
-- [Видос с ручными задачками на состоятельность и поиск плимов](https://www.youtube.com/watch?v=U3y1jltapLw) от ББ 
-- Прочитайте главу про сравнение оценок [в Черновой](https://github.com/FUlyankin/r_probability/blob/master/books/Хороший%20учебник%20по%20матстату.pdf)
-
-
+* [Видосы Бориса Демешева](https://vimeo.com/album/2521777) с разбором задачек по терверу и матстату (там довольно много задач на метод первого шага, довольно много задач для второго семинара я брал у него, смотреть начинать снизу). Можно научиться решать сложные задачи :)
+* [Задачник по терверу "Культурный код"](https://github.com/bdemeshev/probability_dna)
