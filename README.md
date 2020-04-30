@@ -7,7 +7,7 @@
 * Актуальные материалы семинаров лежат в папках `./end_seminars_2020/sem*`
 * В каждой папке есть свой небольшойx README с дополнительными материалами
 * Если вы хотите скачать из репозитория конкретную папку, просто вставьте ссылку на неё [в сервис для скачки.](https://minhaskamal.github.io/DownGit/#/home) Кнопка "скачать" есть в README к каждой неделе.
-* Логи предыдущих лет ищи [на старой страничке курса.](https://fulyankin.github.io/r_probability/)
+* Логи [2019](https://github.com/FUlyankin/r_probability/blob/master/docs/_posts/2017-12-16-logi2019.md), [старая страничка курса.](https://fulyankin.github.io/r_probability/), [видосы 2020](https://www.youtube.com/playlist?list=PLNKXA-74YGLhv3CdwExDVxMa0DmA4ASg_)
 
 ## Идеология курса:
 
