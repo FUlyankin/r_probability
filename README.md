@@ -33,7 +33,6 @@ __ВНИМАНИЕ!__ Каждая найденная опечатка, орфо
 * [Шаблоны с первого семинара](https://github.com/FUlyankin/r_probability/blob/master/r_hw_shablon.zip)
 * [Более сложные приёмы от Ахмеда,](https://github.com/FUlyankin/LaTeX/blob/master/Logi_2019/sem_2/R_LaTeX.zip) если хочется лучше разобраться с LaTeX
 * [Хороший туториал](http://www.markdowntutorial.com/) по Markdown. Если у вас есть свободные 10 минут, их хватит
-* Ещё немножечко Markdown на русском можно найти [тут](http://opp.psy.msu.ru/help.php?file=markdown.html) и [здесь](http://opp.psy.msu.ru/help.php?file=advanced_markdown.html)!
 * [Уроки](http://rmarkdown.rstudio.com/) по Markdown в R. Это шикарная страница.
 
 
