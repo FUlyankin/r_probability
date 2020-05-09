@@ -26,7 +26,6 @@
 __ВНИМАНИЕ!__ Каждая найденная опечатка, орфографическая и пунктуационная ошибка приносит нашедшей её команде дополнительные 0.1 балла. Принимаются опечатки только из папки `end_seminars_2020`.
 
 * [Форма для регистрации команд](https://docs.google.com/forms/d/e/1FAIpQLSfW1e5wSWF42xlYxjE-XpXusxd7BMKROrdaiz2lPPio_OPsqw/viewform)
-* [Форма для сдачи домашек](https://docs.google.com/forms/d/e/1FAIpQLSdfUl5-LbWXVOlNDrx6bjvuqcFvw_8c51uBgzW3_QuOnMfWYA/viewform)
 * [Яндекс-диск со всеми данными](https://yadi.sk/d/IcRT058L5jXQJw)
 
 * [Видео-инструкция по оформлению домашек](https://yadi.sk/i/Pxp_pByP6Em9-A)
