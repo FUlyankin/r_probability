@@ -41,7 +41,8 @@ __ВНИМАНИЕ!__ Каждая найденная опечатка, орфо
 
 | домашка                         |    дедлайн       |    решение    |  стоимость |
 |:-------------------------------:|:-----------------:|:-------------:|:----------:|
-|   [Симуляции](https://github.com/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW1.ipynb)             |  10 мая |               |    100      |
+|   [Симуляции](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW1.ipynb)            |  10 мая |               |    100      |
+|   [CI и гипотезы](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW2.ipynb)             |  31 мая |               |    100      |
 
 
 * Турнирная таблица с баллами команд:
