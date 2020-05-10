@@ -39,10 +39,10 @@ __ВНИМАНИЕ!__ Каждая найденная опечатка, орфо
 
 Дедлайны по домашкам указаны либо в яндекс.контест либо в anytask. Для каждой домашки есть анонимная анкета, в которой вы можете высказать своё мнение о ней.
 
-| домашка                         |    дедлайн       |    решение    |  стоимость |
+| домашка                         |    дедлайн        |    решение    |  стоимость |
 |:-------------------------------:|:-----------------:|:-------------:|:----------:|
 |   [Симуляции](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW1.ipynb)            |  10 мая |               |    100      |
-|   [Доверительные интервалы и гипотезы](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW2.ipynb)             |  31 мая |               |    100      |
+|   [Доверительные интервалы и гипотезы](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW2.ipynb) [колаб](https://colab.research.google.com/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW2.ipynb) |  31 мая |               |    100      |
 
 
 * Турнирная таблица с баллами команд:
