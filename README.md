@@ -39,10 +39,16 @@ __ВНИМАНИЕ!__ Каждая найденная опечатка, орфо
 
 Дедлайны по домашкам указаны либо в яндекс.контест либо в anytask. Для каждой домашки есть анонимная анкета, в которой вы можете высказать своё мнение о ней.
 
-| домашка                         |    дедлайн       |    решение    |  стоимость |
-|:-------------------------------:|:-----------------:|:-------------:|:----------:|
-|   [Симуляции](https://github.com/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW1.ipynb)             |  10 мая |               |    100      |
+| домашка                         | она же в колабе |   дедлайн        |    решение    |  стоимость |
+|:-------------------------------:|:---------------:|:-----------------:|:-------------:|:----------:|
+|   [Симуляции](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW1.ipynb)           | [колаб](https://colab.research.google.com/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW1.ipynb) |  10 мая |               |    100      |
+|   [Доверительные интервалы и гипотезы](https://nbviewer.jupyter.org/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW2.ipynb) | [колаб](https://colab.research.google.com/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW2.ipynb) |  31 мая |               |    100      |
 
+Если делаете домашку в колабе, то не забудьте сохранить решение на гугл-диск.  При желании можно авторизоваться на гитхаб и делать в свой репозиторий комиты прямо из него. Ссылку на тетрадку формируется слудющим образом: 
+
+```
+   https://colab.research.google.com/github/FUlyankin/r_probability/blob/master/end_seminars_2020/HW/HW1.ipynb
+```
 
 * Турнирная таблица с баллами команд:
 
