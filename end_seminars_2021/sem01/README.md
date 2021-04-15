@@ -1,7 +1,7 @@
 ## Посиделка 1: про то, что случайности неслучайны
 
 
-- Видео c пары - ?????
+- [Видео c пары](https://www.youtube.com/playlist?list=PLNKXA-74YGLgug7l557PiN-hPNCPVmKsJ)
 - [Блокнот с задачками для первого семинара](https://drive.google.com/file/d/1ydnWkavvm-If1KkBNr88XohXCMvyI2xK/view?usp=sharing)
 
 __Откуда я брал материалы для лекции:__
