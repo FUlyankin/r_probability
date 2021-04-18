@@ -8,6 +8,7 @@
 * В каждой папке есть свой небольшойx README с дополнительными материалами
 * Если вы хотите скачать из репозитория конкретную папку, просто вставьте ссылку на неё [в сервис для скачки.](https://minhaskamal.github.io/DownGit/#/home)
 * Если вы хотите скачать всё, жмите зелёную кнопку справа наверху, либо [выучите git](https://nbviewer.jupyter.org/github/FUlyankin/LaTeX/blob/master/Logi_2019/sem_8/Intro_git_ssh.ipynb) и просто сделайте `clone`, а потом при каждом онбновлении делайте `pull`
+* [Видео 2021](https://www.youtube.com/playlist?list=PLNKXA-74YGLgug7l557PiN-hPNCPVmKsJ)
 * [Cтарая страничка курса,](https://fulyankin.github.io/r_probability/) [видосы с курса 2020 года](https://www.youtube.com/playlist?list=PLNKXA-74YGLhv3CdwExDVxMa0DmA4ASg_)
 
 
